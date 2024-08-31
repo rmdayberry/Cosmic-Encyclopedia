@@ -3,7 +3,7 @@ import NavBar from "./NavBar";
 
 //pages
 import Homepage from "./pages/Homepage";
-import ContentPage from "./pages/ContentPage";
+import ContentPage from "./ContentPage";
 
 function App() {
   return (
