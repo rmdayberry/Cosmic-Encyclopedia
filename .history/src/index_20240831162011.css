@@ -55,40 +55,28 @@ button:hover {
 .nav-bar a {
   color: white;
   text-decoration: none;
-  padding: 10px 20px;
+  padding: 8px 16px;
   font-size: 18px;
-  transition: color 0.3s, background-color 0.3s;
-  border-radius: 4px;
+  transition: color 0.3s;
 }
 
 .nav-bar a:hover {
-  color: var(--secondary);
-  background-color: var(--accent);
+  color: orangered;
 }
 
 .backBtn {
-  margin: 20px;
-  padding: 8px 16px;
   background-color: var(--secondary);
-  color: white;
-  border: 1px solid white;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background-color 0.3s, transform 0.2s;
+  transition: color 0.3s;
+  margin-left: 50px;
 }
 .backBtn:hover {
-  background-color: var(--accent);
-  transform: translateY(-2px);
+  background-color: orangered;
 }
 
-.content-title {
+/* .content-title {
   font-size: 30px;
   padding: 10px;
   margin-left: 30px;
 }
 
-.welcome-title {
-  font-size: 30px;
-  padding: 10px;
-  margin-left: 30px;
-}
+.welcome-title */
